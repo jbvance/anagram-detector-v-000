@@ -12,6 +12,7 @@ class Anagram
     words.each do |word|
       res.push(word) if input_sorted == word.split("").sort
     end
+    res
   end
 
 end
