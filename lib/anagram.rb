@@ -12,5 +12,5 @@ class Anagram
       return true if input_sorted == word.split("").sort
     end
   end
-  
+
 end
